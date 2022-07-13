@@ -162,8 +162,12 @@ blockquote {
     text-align: center;
 }
 .calltext {
-    align-content: center;
-    text-align: center;
+    /*align-content: center;
+    text-align: center;*/
+    left: 150px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
 }
 .border{
     border: rgb(23, 168, 221) 3px solid;
