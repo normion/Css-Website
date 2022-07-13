@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("./fonts/Roboto-Bold.ttf");
+}
+*{
+    /*border: red 5px solid;*/
+    font-family: "Roboto Regular",Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    text-decoration-color: #E5E7EB;
+}
+/*img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}*/
+header, footer {
+    color: #F9FAF8;
+    font-family: "Roboto Regular",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-color: #1F2937;
+    text-decoration-color: #E5E7EB;
+
+}
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50;
+}
+.wrapper2 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50;
+}
+.maintext{
+    color: #F9FAF8;
+    font-family: "Roboto Bold",Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.firstline{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.secondline{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    gap: 10px 50px;
+    width: 30%;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    
+}
+.secondary{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration-color: #E5E7EB;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:baseline;
+    
+}
+.mainholder {
+	flex: 20 1 auto;
+    min-width: 400px;
+    
+}
+.placeholder {
+	align-self: center;
+    background-color: #E5E7EB;
+    padding: 10px;
+    min-width: 500px;
+    min-height: 200px;
+	
+}
+.imgicons{
+        max-width: 128px;
+        max-height: 128px;  
+        min-width: 128px;
+        min-height: 128px;
+        border-radius: 10%;
+        border: rgb(23, 168, 221) 3px solid;
+}
+.title{
+    font-family: "Roboto Bold",Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #1f2937;
+    size: 36px;
+    font-weight: bolder;
+}
+.caption{
+    max-width: 128px;
+    text-align: justify;
+}
+.button{
+    background-color: #3882f6;
+    min-height: 35px;
+    padding: 2px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    color: #E5E7EB;
+    flex-basis: content;
+
+}
+.border{
+    border: rgb(23, 168, 221) 3px solid;
+}
