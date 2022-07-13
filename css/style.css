@@ -43,6 +43,12 @@ footer {
 	margin: 0 auto;
 	padding: 50;
 }
+.wrapper3 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50;
+    background-color: #E5E7EB;
+}
 .maintext{
     color: #F9FAF8;
     font-family: "Roboto Bold",Verdana, Geneva, Tahoma, sans-serif;
@@ -92,11 +98,16 @@ footer {
 }
 .placeholder {
 	align-self: center;
-    background-color: #E5E7EB;
     padding: 10px;
     min-width: 500px;
     min-height: 200px;
 	
+}
+.cite{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    
 }
 .imgicons{
         max-width: 128px;
