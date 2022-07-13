@@ -9,8 +9,11 @@
 @font-face {
     font-family: "Roboto Italic";
     src: url("./fonts/Roboto-Italic.ttf");
+}
 *{
     /*border: red 5px solid;*/
+
+    padding: 0px;
     font-family: "Roboto Regular",Verdana, Geneva, Tahoma, sans-serif;
 }
 a:link, a:visited, a:active {
@@ -37,7 +40,9 @@ footer {
 }
 blockquote {
     background-color: #E5E7EB;
+    font-family: "Roboto Italic",Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    size: 36px;
 }
 .wrapper {
 	max-width: 1000px;
@@ -52,6 +57,13 @@ blockquote {
 .wrapper3 {
 	margin: 0 auto;
     background-color: #E5E7EB;
+}
+.wrapper4{
+    max-width: 1200px;
+    align-content:center;
+    margin: 0 auto;
+	padding: 50;
+
 }
 .maintext{
     color: #F9FAF8;
@@ -140,6 +152,14 @@ blockquote {
     color: #E5E7EB;
     flex-basis: content;
 
+}
+.calltoaction {
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    background: #3882F6;
+    box-shadow: 4px 4px 5px gray;
+    text-align: center;
 }
 .border{
     border: rgb(23, 168, 221) 3px solid;
