@@ -158,12 +158,9 @@ blockquote {
     display: flex;
     color: white;
     background: #3882F6;
-    box-shadow: 4px 4px 5px gray;
     text-align: center;
 }
 .calltext {
-    /*align-content: center;
-    text-align: center;*/
     left: 150px;
     position: relative;
     padding: 20px;
