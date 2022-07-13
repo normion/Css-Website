@@ -40,9 +40,6 @@ footer {
 }
 blockquote {
     background-color: #E5E7EB;
-    font-family: "Roboto Italic",Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    size: 36px;
 }
 .wrapper {
 	max-width: 1000px;
@@ -123,6 +120,9 @@ blockquote {
     display: flex;
     justify-content: space-between;
     align-items:baseline;
+    font-family: "Roboto Italic",Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    size: 36px;
     
 }
 .imgicons{
