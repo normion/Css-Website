@@ -161,6 +161,10 @@ blockquote {
     box-shadow: 4px 4px 5px gray;
     text-align: center;
 }
+.calltext {
+    align-content: center;
+    text-align: center;
+}
 .border{
     border: rgb(23, 168, 221) 3px solid;
 }
